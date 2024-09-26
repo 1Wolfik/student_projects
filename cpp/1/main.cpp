@@ -3,9 +3,6 @@
 using namespace std;
 
 int main(){
-int a=0;
-int b=6;
-int wynik;
-wynik=b/a;
+	cout<<"witaj swiecie"<<endl;
 	return 0;
 }
