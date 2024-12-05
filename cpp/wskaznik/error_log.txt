@@ -1,0 +1,17 @@
+main.cpp: In function ‘int main()’:
+main.cpp:11:11: error: invalid conversion from ‘int*’ to ‘int’ [-fpermissive]
+   11 | calculate(&a,&b,&div,&sum);
+      |           ^~
+      |           |
+      |           int*
+main.cpp:6:19: note:   initializing argument 1 of ‘int calculate(int, int, int*, int*)’
+    6 | int calculate(int a,int b,int *div,int *sum);
+      |               ~~~~^
+main.cpp:11:14: error: invalid conversion from ‘int*’ to ‘int’ [-fpermissive]
+   11 | calculate(&a,&b,&div,&sum);
+      |              ^~
+      |              |
+      |              int*
+main.cpp:6:25: note:   initializing argument 2 of ‘int calculate(int, int, int*, int*)’
+    6 | int calculate(int a,int b,int *div,int *sum);
+      |                     ~~~~^
